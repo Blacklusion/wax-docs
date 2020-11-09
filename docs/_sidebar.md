@@ -9,3 +9,5 @@
 
 - Security
   - [Custom Permissions](custom_permissions.md)
+
+- [Contributing to the Docs](contribute.md)
