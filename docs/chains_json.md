@@ -17,11 +17,11 @@ Note that you will have to set up the Access-Control-Allow-Origin Header properl
 
 If you are using Nginx, you can easily achieve this by adding the following line to your conf that handles the route for the chains.json.
 
-```bash
+```nginx
 add_header Access-Control-Allow-Origin *;
 ```
 
-```bash
+```nginx
 # Example config    
 location ~ \.json {
         add_header Access-Control-Allow-Origin *;
