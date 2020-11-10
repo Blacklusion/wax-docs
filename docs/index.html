@@ -23,12 +23,27 @@
       repo: '',
       loadSidebar: true,
       subMaxLevel: 2,
+      count:{
+          countable: true,
+          position: 'top',
+          margin: '10px',
+          float: 'right',
+          fontsize:'0.9em',
+          color:'rgb(90,90,90)',
+          language:'english',
+          localization: {
+            words: "",
+            minute: ""
+          },
+          isExpected: true
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
   <!-- Plugins loaded after initialization -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
 
   <!-- Syntax Highlighting -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
