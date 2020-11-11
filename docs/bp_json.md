@@ -51,7 +51,7 @@ Now, that we have written and named your bp.json. All that is left to do, is to 
 
 Just host the bp.json at the root of that domain. So for example “blacklusion.com/wax.json”. We at blacklusion own both the “.io” and “.com” domain ending. In case you have multiple domains for your guild, you can optionally host the bp.json on all domains to make the lives of peoples easier. However, this is technically not mandatory.
 
-> **Important**: Don't forget to update your chains.json to contain the name of your bp.json and the according chainId.
+> **Important**: Don't forget to update your [chains.json](https://docs.blacklusion.io/#/chains_json) to contain the name of your bp.json and the according chainId.
 
 ## Pushing your bp.json on-chain
 Learn how to push a bp.json in here.
