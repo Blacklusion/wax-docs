@@ -4,12 +4,12 @@ Creating a chains.json is probably the simplest task you will have to face when 
 
 ## Why a chains.json?
 
-Since a [bp.json]("https://docs.blacklusion/#/en/getting-started/bp_json") is needed for every chain (this includes a separate producerjson for Mainnet and Testnet), there is the need for listing all the producerjson associated with a block producer and chain. The chains.json simply lists and links the bp.json to a chain-id.
+Since a [bp.json](/en/getting-started/bp-json) is needed for every chain (this includes a separate producerjson for Mainnet and Testnet), there is the need for listing all the producerjson associated with a block producer and chain. The chains.json simply lists and links the bp.json to a chain-id.
 
 ## Creating the chains.json
 
-Just start off by using [this]("https://github.com/Blacklusion/chains.json") template. It contains already all chains that you will probably need and more. If you don’t want to use this repo, we can alternatively suggest using the Network Info from the [Eos Nation Validator]("https://validate.eosnation.io/wax/info/").
-In the next step, delete all chains, that you don’t need from the template. Don’t forget to adjust the names of the chain’s producerjson that you have not deleted. These have to match the according .json and URL for that chain. The names provided in the repo are not binding, however, this is how we (would) name the producerjsons. In our bp.json tutorial, we have already covered how to correctly name your [bp.json]("/en/getting-started/bp_json") and URL.
+Just start off by using [this](https://github.com/Blacklusion/chains.json) template. It contains already all chains that you will probably need and more. If you don’t want to use this repo, we can alternatively suggest using the Network Info from the [Eos Nation Validator](https://validate.eosnation.io/wax/info/).
+In the next step, delete all chains, that you don’t need from the template. Don’t forget to adjust the names of the chain’s producerjson that you have not deleted. These have to match the according .json and URL for that chain. The names provided in the repo are not binding, however, this is how we (would) name the producerjsons. In our bp.json tutorial, we have already covered how to correctly name your [bp.json](/en/getting-started/bp-json) and URL.
 
 ```bash
 # WAX Mainnet ChainId
