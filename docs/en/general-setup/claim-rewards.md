@@ -36,7 +36,7 @@ Manually performing an API request can be easily done with e.g. Cleos. You willl
           }
 ```
 
-## A few words about Security:
+## A few words about Security
 Regardless of how you choose to claim your rewards: You should always use a [custom permission](/en/security/custom-permissions) only dedicated to claiming rewards. Basically, the custom permission will only be able to sign the “claim rewards” action. This will ensure that no other transactions can be signed. This prevents any scripts or people from creating harm to your account, that get hold of your key.
 
 ## How often should I claim rewards?
@@ -45,6 +45,6 @@ On some EOSIO based blockchains, you can technically claim your rewards how ofte
 ## What about Testnet?
 Claiming your rewards on Testnet is not that important, since Testnet rewards have no real value. That being said, we would still recommend claiming your rewards on the Testnet for two main reasons: 1. It allows you to test your Permission setup and Infrastructure/Script configuration 2. Although money is made on Mainnet, the Testnet is still an important key for the future development of WAX and products built on WAX. Testnet should be treated the same way as Mainnet is treated. Claiming your rewards on Testnet indicates a clean setup and that you are taking Testnet seriously. Additionally claiming your rewards on Testnet means next to no effort, anyways.
 
-## Helpful Links:
+## Helpful Links
 - Claim script written in Typescript and deployed via docker: https://github.com/Blacklusion/claim-rewards
 - Waxy Claim Bot: https://waxy.io/login
