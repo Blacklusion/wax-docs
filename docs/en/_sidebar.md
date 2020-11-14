@@ -7,6 +7,7 @@
 
 - General Setup
   - [Claiming rewards](en/general-setup/claim-rewards.md)
+  - [Creating snapshots](en/general-setup/creating-snapshots.md)
 
 - Security
   - [Custom Permissions](en/security/custom-permissions.md)
