@@ -49,5 +49,5 @@ Click on “Link Auth“ and sign the transaction with the wallet of your choice
 
 Note that you may have to repeat this step if your task requires multiple actions (e.g. “producerjson::set” and “producerjson::del”.
 
-## Helpful links:
+## Helpful Links:
 - Create custom permissions with GUI: https://wax.bloks.io
