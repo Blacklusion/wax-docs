@@ -39,6 +39,6 @@ Regardless of how you choose to claim your rewards: You should always use a [cus
 ## How often should I claim rewards?
 On some EOSIO based blockchains, you can technically claim your rewards how often you want. On WAX this seems to be limited to once per day. In our opinion, this is a useful limitation: Depending on your local tax laws, every claim has to be considered with the current exchange rate in your tax report. More claims mean more effort when creating your tax report. Only claiming once per day is a great mix between claiming frequently and having a small number of transactions (~30 per month) to keep track of. There is no real reason to claim more often anyway.
 
-## Helpful Links:
+## Helpful Links
 - Claim script written in Typescript and deployed via docker: https://github.com/Blacklusion/claim-rewards
 - Waxy Claim Bot: https://waxy.io/login
