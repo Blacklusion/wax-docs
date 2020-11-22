@@ -95,5 +95,5 @@ Markdown offers the option to specify the language of code blocks. The documenta
 Please always add a Helpful Links section at the end of your article. Thats "Helpful Links" without ":" and with capital letters at the beginning of both words. This is a standard I would like to establish: The idea is, that people can quickly find other articles regarding similar topics, links to repositories or websites that may help by solving the problem discussed in the article. Feel free to link to your own products.
 
 
-## Helpful links
+## Helpful Links
 - [Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
