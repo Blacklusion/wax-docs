@@ -11,7 +11,7 @@ All the articles are stored in the **docs/** folder of the repository. This fold
 
 Then, select the **category** of your article or create a new one if needed. Lastly, just store your article with "-" instead of spaces. The urls will be created based on the filename, therefore it should be consistent across all articles.
 
-In case you are using **images** in your article: In every category folder you will find a **media/** folder. In that folder create a new folder with, exactly with the same filename as your article. Within that folder, you can use whatever namingscheme you want.
+In case you are using **images** in your article: In every category folder you will find a **media/** folder. In that folder create a new subfolder with the exact name of your article. Within that folder, you can use whatever namingscheme you want.
 ```
 .
 └── docs/
@@ -51,7 +51,7 @@ This header won't appear in the sidebar table of contents.
 ```
 
 ## Sidebar
-As mentioned before, the table of contents will be automatically created in the sidebar. But first you will have to add your article to the sidebar. In every language folder you will find a **_sidebar.md** file:
+As mentioned before, the table of contents will be automatically created for the sidebar. But first you will have to add your article to the sidebar. In every language folder you will find a **_sidebar.md** file:
 ```
 .
 └── docs/
@@ -59,7 +59,7 @@ As mentioned before, the table of contents will be automatically created in the 
     └── language (e.g. en)/
         └── _sidebar.md
 ```
-Open the appropriate file add your article by the following scheme:
+Open the appropriate file and add your article after the following scheme:
 ```markdown
 <!-- docs/_sidebar.md -->
 
@@ -72,8 +72,9 @@ Open the appropriate file add your article by the following scheme:
   - [Pushing bp.json on chain](en/getting-started/pushing-bp-json-onchain.md "How to push your bp.json on-chain")
 ```
 You can specify an title after the name of the markdown file. This title will not be shown anywhere on the doc site itself. This title is used for SEO purposes only and lets you to specify how your articles will be previewed.
+
 ## Linking to other articles
-When linking to other articles, it is highly recommended to use relative links, since this would allow to e.g. easily change the domain name in the future. Your can link to other articles by using the following format:
+When linking to other articles, it is highly recommended to use relative links, since this would allow to e.g. easily change the domain name in the future. You can link to other articles by using the following format:
 ```markdown
 This is a [link](/en/getting-started/other-article) to another article.
 ```
@@ -91,7 +92,7 @@ Markdown offers the option to specify the language of code blocks. The documenta
 </pre>
 
 ## Always add "Helpful Links"
-Please always add a Helpful Links section at the end of your article. Thats "Helpful Links" without ":" and with capital letters at the beginning of both words. This is a standard I would like to establish: The idea is, that people can quickly find other articles regarding similar topics, links to repository or websites that may help by solving the problem discussed in the article. Feel free to link to your own products.
+Please always add a Helpful Links section at the end of your article. Thats "Helpful Links" without ":" and with capital letters at the beginning of both words. This is a standard I would like to establish: The idea is, that people can quickly find other articles regarding similar topics, links to repositories or websites that may help by solving the problem discussed in the article. Feel free to link to your own products.
 
 
 ## Helpful links
