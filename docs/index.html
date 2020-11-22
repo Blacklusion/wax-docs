@@ -20,16 +20,19 @@
         EditOnGithubPlugin.create('https://github.com/Blacklusion/wax-docs/blob/main/docs/')
       ],
       name: 'Wax Docs',
+      loadNavbar: true,
       nameLink: {
-          '/': '/#/en/',
           '/en/': '/#/en/',
-          '/de/': '/#/de/'
+          '/de/': '/#/de/',
+          '/': '/#/en/'
       },
       auto2top: true,
       repo: '',
       loadSidebar: true,
       alias: {
-          '/_sidebar.md': '/en/_sidebar.md'
+          '/_sidebar.md': '/en/_sidebar.md',
+          '/en/_sidebar.md': '/en/_sidebar.md',
+          '/de/_sidebar.md': '/de/_sidebar.md'
       },
       subMaxLevel: 2,
       count:{
