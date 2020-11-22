@@ -50,6 +50,6 @@ This tutorial is not really about setting up an actual snapshot service. But now
 - **Compressing your snapshots**: When downloading your snapshots to other servers, size matters. For that reason, you should consider compressing your snapshot e.g. using the “.tar.gz” file format.
 - **Deleting old snapshots**: Snapshots can rack up quite some disk space pretty fast. Consider deleting older ones, while keeping at least one per major node version (1.8 and 2.0 etc.)
 
-## Helpful Links:
+## Helpful Links
 - If you are looking to set up a snapshot service fast, you can have a look at the open-source code from Charles from the folks at Sentnl: https://github.com/ankh2054/snapshot-service
 - Official Documentation: https://developers.eos.io/manuals/eos/v2.0/nodeos/replays/how-to-generate-a-snapshot
