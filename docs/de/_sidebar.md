@@ -8,4 +8,4 @@
   - [bp.json](de/erste-schritte/bp-json.md)
 
 - Generelles Setup
-  - [Snapshots erstellen](de/generelles-setup/snapshot-erstellen.md)
+  - [Snapshots erstellen](de/generelles-setup/snapshots-erstellen.md)
