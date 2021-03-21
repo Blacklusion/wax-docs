@@ -5,3 +5,7 @@
 
 - Erste Schritte
   - [chains.json](de/erste-schritte/chains-json.md)
+  - [bp.json](de/erste-schritte/bp-json.md)
+
+- Generelles Setup
+  - [Snapshots erstellen](de/generelles-setup/snapshot-erstellen.md)
