@@ -35,8 +35,6 @@ Wie erhält man die Koordinaten der Nodes? Der einfachste Weg ist die Verwendung
 
 
 - **Node type**:<br>
-Pick **producer**, if you are listing a producer node. Pick **seed** if you are listing a p2p-node. Pick **query** if you are listing an API node.
-
 Wählen Sie **producer**, wenn Sie eine Producer-Node auflisten möchten. Wählen Sie **seed**, wenn Sie eine p2p-Node auflisten. Wählen Sie **query**, wenn Sie eine API-Node auflisten.
 
 
@@ -47,8 +45,6 @@ Wahrscheinlich hosten Sie nicht nur eine "normale" Chain-Api, sondern auch einen
 ```
 
 - **Endpoints**:<br>
-Self-explanatory. However keep in mind that you may want to produce on multiple chains, therefore choosing domains such as “peer.blacklusion.io” is not suitable. Instead, use a domain containing the chain’s name. Such as “peer1.wax.blacklusion.io”. To get an idea, what domains to use, have a look at the [endpoints](https://validate.eosnation.io/wax/reports/endpoints.html) of other block producers.
-
 Dies sollte eigentlich selbsterklärend sein. Beachten Sie jedoch, dass Sie möglicherweise auf mehreren Chains produzieren wollen, daher ist die Wahl von Domänen wie "peer.blacklusion.io" nicht geeignet. Verwenden Sie stattdessen eine Domain, die den Namen der Chain enthält. Zum Beispiel "peer1.wax.blacklusion.io". Um eine Idee zu bekommen, welche Domains zu verwenden sind, schauen Sie sich die [endpoints](https://validate.eosnation.io/wax/reports/endpoints.html) anderer Blockproduzenten an.
 
 ## Die bp.json nicht bp.json nennen

@@ -31,8 +31,6 @@ Sie können einen Snapshot erstellen, indem Sie den folgenden Befehl ausführen:
 curl -X POST http://127.0.0.1:8888/v1/producer/create_snapshot
 ```
 
-This assumes that the IP-Address of your node is 127.0.0.1 (localhost). and the API Port is specified as 8888. Change these if needed. In case you are using Docker to host your nodes, you can check the IP-Address of the container with:
-
 Dabei wird davon ausgegangen, dass die IP-Adresse Ihrer Node 127.0.0.1 (localhost) ist. und der API-Port als 8888 angegeben ist. Ändern Sie diese bei Bedarf. Falls Sie Docker zum Hosten Ihrer Nodes verwenden, können Sie die IP-Adresse des Containers mit überprüfen:
 
 ```bash
@@ -45,12 +43,6 @@ So erhalten Sie alle notwendigen Netzwerkinformationen. (Übrigens, falls Sie da
 Die Snapshots werden standardmäßig im Verzeichnis "data/snapshots" gespeichert. Um ein benutzerdefiniertes Verzeichnis anzugeben, müssen Sie die Option "data-dir" in Ihrer Konfiguration setzen. Falls Sie Docker verwenden, wäre es sinnvoller, nicht mit diesen Einstellungen herumzuspielen, sondern Ihre Volumes entsprechend zu mounten.
 
 ## Step 5 – Set up your Snapshot service
-
-This tutorial is not really about setting up an actual snapshot service. But now that you know how to create a single one, all that is left to do, is automating that task using a script. Regardless of your implementation, here are some things to consider:
-- **Frequency**: Creating one snapshot per day, should be enough. But feel free to experiment with other frequencies
-- **Compressing your snapshots**: When downloading your snapshots to other servers, size matters. For that reason, you should consider compressing your snapshot e.g. using the “.tar.gz” file format.
-- **Deleting old snapshots**: Snapshots can rack up quite some disk space pretty fast. Consider deleting older ones, while keeping at least one per major node version (1.8 and 2.0 etc.)
-
 In diesem Tutorial geht es nicht wirklich um das Einrichten eines tatsächlichen Snapshot-Dienstes. Aber da Sie nun wissen, wie man einen solchen erstellt, bleibt nur noch die Automatisierung dieser Aufgabe mithilfe eines Skripts übrig. Unabhängig von Ihrer Implementierung, sind hier einige Dinge zu beachten:
 - **Häufigkeit**: Einen Snapshot pro Tag zu erstellen, sollte ausreichend sein. Sie können aber gerne mit anderen Häufigkeiten experimentieren
 - **Komprimieren Ihrer Snapshots**: Wenn Sie Ihre Snapshots auf andere Server herunterladen, spielt die Größe eine Rolle. Aus diesem Grund sollten Sie in Erwägung ziehen, Ihren Snapshot zu komprimieren, z. B. mit dem Dateiformat ".tar.gz".
