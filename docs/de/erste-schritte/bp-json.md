@@ -48,7 +48,6 @@ Wahrscheinlich hosten Sie nicht nur eine "normale" Chain-Api, sondern auch einen
 Dies sollte eigentlich selbsterklärend sein. Beachten Sie jedoch, dass Sie möglicherweise auf mehreren Chains produzieren wollen, daher ist die Wahl von Domänen wie "peer.blacklusion.io" nicht geeignet. Verwenden Sie stattdessen eine Domain, die den Namen der Chain enthält. Zum Beispiel "peer1.wax.blacklusion.io". Um eine Idee zu bekommen, welche Domains zu verwenden sind, schauen Sie sich die [endpoints](https://validate.eosnation.io/wax/reports/endpoints.html) anderer Blockproduzenten an.
 
 ## Die bp.json nicht bp.json nennen
-Since many block producers are active on multiple chains (this is even the case when you are producing on both the Mainnet and Testnet), the bp.json is not actually named bp.json but after the chains name (different names for Testnet and Mainnet). So for the WAX Mainnet, this would be “wax.json” and for the Testnet “waxtest.json”.
 
 Da viele Blockproduzenten auf mehreren Chains aktiv sind (dies ist sogar der Fall, wenn Sie sowohl auf dem Mainnet als auch auf dem Testnet produzieren), heißt die bp.json eigentlich nicht bp.json, sondern nach dem Namen der Chains (unterschiedliche Namen für Testnet und Mainnet). Für das WAX Mainnet wäre dies also "wax.json" und für das Testnet "waxtest.json".
 
