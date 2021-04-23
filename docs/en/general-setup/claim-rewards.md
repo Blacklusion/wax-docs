@@ -15,7 +15,7 @@ There is no real reason why you want to claim your rewards manually. But in case
 ![img01](/media/claim-rewards/img01.png)
 
 ## 3. Manually claiming with an API / Cleos
-Manually performing an API request can be easily done with e.g. Cleos. You willl need to use the fillowing action for claiming rewards. Just exchange actor & owner with your own account name and replace permission with the name of your permission, you are signing with e.g. “active” or preferable a custom permission such as “claimrewards”.
+Manually performing an API request can be easily done with e.g. Cleos. You will need to use the following action for claiming rewards. Just exchange actor & owner with your own account name and replace permission with the name of your permission, you are signing with e.g. “active” or preferable a custom permission such as “claimrewards”.
 
 ```json
 {
