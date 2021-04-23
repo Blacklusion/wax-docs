@@ -15,7 +15,7 @@ Die bp.json ist auch dann noch verfügbar, wenn die Website vorübergehend offli
 ## 1. Mit Cleos pushen
 Wenn Sie Cleos auf Ihrem Rechner installiert haben und entweder den active oder owner Key (mehr dazu später) zu Ihrer Wallet hinzugefügt haben, können Sie den producerjson mit einem einzigen Befehl pushen.
 
-### Variables:
+### Variablen:
 - **URL** = (optionally) Wenn Sie Probleme haben, eine Verbindung zu einer lokalen Node herzustellen oder keine Node lokal gehostet haben, verwenden Sie diese Option mit einem der öffentlich verfügbaren Endpunkte:
 e.g ```-u https://wax.blacklusion.io```
 - **OWNER** = Accountname des Producers:
